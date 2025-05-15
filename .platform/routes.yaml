@@ -2,7 +2,7 @@
 
 "https://{default}/":
     type: upstream
-    upstream: "Blog:http"
+    upstream: "blog:http"
 
 "https://www.{default}/":
     type: redirect
