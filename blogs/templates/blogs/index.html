@@ -1,0 +1,18 @@
+{% extends 'blogs/base.html' %}
+
+{% block page_header %}
+
+  <div class="p-3 mb-4 bg-light border rounded-3">
+    <div class="container-fluid py-4">
+      <h1 class="display-3">Welcome to Blog!</h1>
+      <p class="lead">
+        Share your ideas, thoughts, and experiences with the world.<br>
+        Create your own blog, write posts, and connect with others who share your interests.<br>
+        Join now and start your blogging journey!
+      </p>
+      <a class="btn btn-primary btn-lg mt-1" href="{% url 'accounts:register' %}">
+        Register &raquo;</a>
+    </div>
+  </div>
+
+{% endblock page_header %}
