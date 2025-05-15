@@ -1,4 +1,4 @@
-name: "Blog"
+name: "blog"
 type: "python:3.10"
 
 relationships:
